@@ -7,4 +7,7 @@ Generally, the main idea of this work lies in constructing dynamic cross graphs 
 - Dynamic temporal connection graphs are constructed based on an FFT-based attentive selector and dynamic spatial graphs. The concept of temporal connection graph comes from STSGCN and STFGCN at first. It is initially an identity matrix to enhance the self-connection for each node between adjacency time steps. Here, we design the FFT-based attentive selector to calculate the time-varying weights based on the real-time inputs, which can make the temporal connection graphs not only "dynamic" for weights but also "dynamic" for connected time steps.
 - For the fusion part, considering the computational cost, we hope the fused graphs should be sparse. Thus, we introduce some acknowledged basis for design. For example, the past time steps can influence the future time steps, and the latest time step of the inputs should be the priority.
 
+The training process of DSTCGCN is as follow:
+<img src="https://user-images.githubusercontent.com/34831792/230534978-7d35f033-cb51-4a50-b426-06738f085753.png" alt="training process of DSTCGCN" style="zoom:50%;" />
+
 The paper now is underreview. We will release the code ASAP.
