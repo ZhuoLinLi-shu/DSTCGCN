@@ -8,6 +8,6 @@ Generally, the main idea of this work lies in constructing dynamic cross graphs 
 - For the fusion part, considering the computational cost, we hope the fused graphs should be sparse. Thus, we introduce some acknowledged basis for design. For example, the past time steps can influence the future time steps, and the latest time step of the inputs should be the priority.
 
 The training process of DSTCGCN is as follow:
-<img src="https://user-images.githubusercontent.com/34831792/230534978-7d35f033-cb51-4a50-b426-06738f085753.png" alt="training process of DSTCGCN" style="zoom:50%;" />
+<img src="pic/cal_process.png" alt="training process of DSTCGCN" style="zoom:50%;" />
 
-The paper now is underreview. We will release the code ASAP.
+The paper is underreview now. We will release the full code ASAP.
